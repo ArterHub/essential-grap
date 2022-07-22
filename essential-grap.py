@@ -1,4 +1,3 @@
-root = tk.Tk()
 root.geometry(300x650)
 root.title("Essential - GrapX")
 
