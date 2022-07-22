@@ -1,1 +1,4 @@
-print(radom.randint(1000, 9999))
+token = random.randint(1000, 9999)
+
+print(token)
+
