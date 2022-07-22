@@ -1,10 +1,5 @@
-root.geometry(300x650)
-root.title("Essential - GrapX")
+import random
 
-lb1 = tk.Label(root, text="Test")
-lb1.pack(pady=10)
+token = random.randint(1000, 9999)
 
-button1 = tk.Button(root, text="Clicked!",command: lambda: [WhenClick_Function()])
-
-
-root.mainloop()
+print(token)
